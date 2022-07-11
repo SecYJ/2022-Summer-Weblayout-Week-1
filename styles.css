@@ -114,7 +114,8 @@ ul {
 }
 
 .skills-list {
-	max-width: 220px;
+	width: 220px;
+	white-space: nowrap;
 	margin-inline: auto;
 	margin-top: 2.5rem;
 	color: #fff;
