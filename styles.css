@@ -1,0 +1,167 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:root {
+	--red: #a00404;
+	--blue: #415165;
+}
+
+body {
+	font-size: 24px;
+	line-height: 1.5;
+	font-family: sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+/* utilities start  */
+.mb-2 {
+	/* 8px */
+	margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+	/* 16px */
+	margin-bottom: 1rem;
+}
+
+.mb-6 {
+	/* 24px */
+	margin-bottom: 1.5rem;
+}
+
+.mb-16 {
+	/* 64px */
+	margin-bottom: 4rem;
+}
+
+/* utilities end */
+
+.container {
+	max-width: 1200px;
+	margin-inline: auto;
+}
+
+.name {
+	font-size: 5rem;
+	line-height: 1.1875;
+	padding-top: 2.5rem;
+	padding-bottom: 1.5rem;
+	border-bottom: 2px solid #000;
+}
+
+.avatar {
+	margin-block: 3rem;
+}
+
+.section-title {
+	font-size: 2rem;
+	font-weight: 500;
+	padding-bottom: 0.5rem;
+	border-bottom: 1px solid #000;
+	margin-bottom: 1rem;
+}
+
+.section-title span {
+	color: var(--red);
+	font-size: 1.5rem;
+	margin-left: 1rem;
+	vertical-align: middle;
+	line-height: 1.5;
+}
+
+.section-title.title-white {
+	border-color: #fff;
+	margin-bottom: 0;
+}
+
+.section-title.title-white,
+.section-title.title-white span {
+	color: #fff;
+}
+
+.profile {
+	font-weight: 300;
+}
+
+.section-skills {
+	padding-top: 1.5rem;
+	padding-bottom: 2.5rem;
+	text-align: center;
+}
+
+.skills-list {
+	max-width: 220px;
+	margin-inline: auto;
+	margin-top: 2.5rem;
+	color: #fff;
+	text-align: left;
+	padding-left: 1.5rem;
+	border-left: 1px solid #96a9c4;
+}
+
+.experience-list-title {
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.experience-list-paragraph {
+	font-size: 1.25rem;
+	font-weight: 300;
+}
+
+.section-skills,
+.footer {
+	background-color: var(--blue);
+}
+
+.footer {
+	margin-top: 5rem;
+	text-align: center;
+	color: #fff;
+	padding-top: 1.5rem;
+	padding-bottom: 2.5rem;
+}
+
+.contact-list {
+	margin-top: 1.5rem;
+}
+
+.contact-list a {
+	font: inherit;
+	color: currentColor;
+}
+
+.social-links {
+	display: flex;
+	gap: 1.5rem;
+	justify-content: center;
+}
+
+.contact-list a:hover,
+.social-links a:hover {
+	opacity: 0.75;
+}
